@@ -1,0 +1,111 @@
+body{
+  background-color:#f2f2f2;
+  color:black;
+  margin:0em;
+}
+
+/* Navigation-panel */
+.navigation-panel{
+  background-color:#393e46;
+  color:white;
+
+
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:space-between;
+  align-items:center;
+
+  height:min(7vh,5em);
+}
+
+.icon-navigation{
+  flex:1 1 auto;
+}
+
+.navigation-items{
+  flex:1 1 auto;
+  height:inherit;
+}
+
+.navigation-items>button{
+  background-color:blue;
+  height:inherit;
+}
+
+/* Topic-Area */
+
+.Topic-Area{
+  background-color:#c4c1e0;
+
+  display:flex;
+  flex-direction:column;
+  flex-wrap:nowrap;
+  justify-content:space-around;
+  align-items:space-around;
+
+  height:auto;
+}
+
+.Topic-Area>*{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.Topic-Area>*>h1{
+  flex:1 1 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Topic-Area>*>hr{
+  border:.15em solid #38598b;
+  border-bottom:0em solid #38598b;
+  height:.14em;
+  width:100%;
+}
+
+.Topic-Area>*>img{
+  height:min(10em,20vh);
+  border-radius:10px;
+}
+
+/* Search Area */
+.Search-Area>input{
+
+width:min(20em,35ch);
+height:2em;
+
+border:.14em solid #45171d;
+border-radius:10px;
+}
+
+
+
+
+/* Social-Media */
+.social-media{
+  background-color:#222831;
+  height:min(10em,10vh);
+  color:#f8f8f8;
+
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:center;
+  align-items:center;
+}
+
+
+
+.fa-instagram:before{
+  font-size:1.5em;
+  margin:0 1em;
+}
+
+.fa-snapchat:before{
+  font-size:1.5em;
+  margin:0 1em;
+}
